@@ -34,3 +34,12 @@ public class Ejemplo02 {
         
     }
 }
+
+/*
+El codigo primeramente nos pide un limite por pantalla, con ese limite la 
+varible crezera hasta ese punto, pero tenemos un if, que hace el trabajo de que 
+todo número par que sea con residuo cero, lo omite pues tiene que ser diferente
+de cero y va hacia la linea 32 a agregarle +1 a contador,
+mientras que con los números impares al tener residuo 1, los imprime y se guardan
+en la variable hasta llegar al límite.
+*/
